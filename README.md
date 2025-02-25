@@ -9,5 +9,9 @@ When you first download the Icarus Server Manager you will need to point it at a
 The three most important settings to input are under the "Server Settings". These three settings are "Server Name", "Query Port", and "Game Port". The default ports are already entered and don't need to be changed unless it's necessary for your environment.
 
 ## Upcoming Updates
+- Make manager read and manage the server ini files
+- Visual enhancement to introduce "Dark Mode"
+- Make auto-restart system more adjustable
 
 ## Patch Notes
+- Implemented auto-restart system
