@@ -8,7 +8,7 @@ When you first download the Icarus Server Manager you will need to point it at a
 ### Basic Settings
 The three most important settings to input are under the "Server Settings". These three settings are "Server Name", "Query Port", and "Game Port". The default ports are already entered and don't need to be changed unless it's necessary for your environment.
 
-It is also important that you set the "Restart Interval" on the "Manager Settings" tab to meet your requirements (defaults to 1 hour)
+It is also important that you set the "Restart Interval" on the "Manager Settings" tab to meet your requirements *(Defaults to 1 hour)*
 
 ## Upcoming Updates
 - Make manager read and manage the server ini files
