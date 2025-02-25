@@ -56,7 +56,6 @@ namespace IcarusServerManager
             }
         }
 
-        
 
         private void selectLocationButton_Click(object sender, EventArgs e)
         {
@@ -70,13 +69,13 @@ namespace IcarusServerManager
             serverLocationBox.Text = folder;
             if (!File.Exists(folder + "\\Icarus\\Binaries\\Win64\\IcarusServer-Win64-Shipping.exe"))
             {
-                MessageBox.Show("An Icarus installation was not found at the specified location, please click the install button to proceed");
+                WriteToConsole("An Icarus installation was not found at the specified location, please click the install button to proceed");
                 startServerButton.Enabled = false;
                 serverStatusBox.Text = "Waiting for install";
             }
             else
             {
-                MessageBox.Show("An Icarus installation was found at the specified location, your server is ready to start.\n\nNote you can press the install button at any time to initiate an update and file verification");
+                WriteToConsole("An Icarus installation was found at the specified location, your server is ready to start.\n\nNote you can press the install button at any time to initiate an update and file verification");
                 startServerButton.Enabled = true;
             }
         }

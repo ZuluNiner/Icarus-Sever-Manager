@@ -151,7 +151,7 @@
             copyrightLabel.Name = "copyrightLabel";
             copyrightLabel.Size = new Size(694, 15);
             copyrightLabel.TabIndex = 3;
-            copyrightLabel.Text = "Version 1.0 -- Made by ZuluNiner 2024";
+            copyrightLabel.Text = "Version A1.0 -- Made by ZuluNiner 2024";
             copyrightLabel.TextAlign = ContentAlignment.TopRight;
             // 
             // settingsTabControl
