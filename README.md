@@ -14,4 +14,5 @@ The three most important settings to input are under the "Server Settings". Thes
 - Make auto-restart system more adjustable
 
 ## Patch Notes
+### A1.0
 - Implemented auto-restart system
